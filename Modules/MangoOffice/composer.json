@@ -1,0 +1,28 @@
+{
+    "name": "nwidart/mangooffice",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MangoOffice\\Providers\\MangoOfficeServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MangoOffice\\": ""
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^1.21"
+    }
+}

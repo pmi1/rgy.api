@@ -1,0 +1,79 @@
+query
+FetchUsers
+{
+    managers
+    {
+        id
+        email
+    }
+,
+    platforms
+    {
+        theme
+    }
+,
+    orderStatuses
+    {
+        id
+    }
+,
+    orderPaymentStatuses
+    {
+        id
+        name
+    }
+,
+    orderCancelReasons
+    {
+        name
+    }
+,
+    discounters
+    {
+        name
+    }
+,
+    userStatuses
+    {
+        name
+        statusPercentBonuses
+    }
+,
+    todoType
+    {
+        name
+        id
+    }
+,
+    todoStatuses
+    {
+        id
+        name
+        color
+    }
+,
+    todoStates
+    {
+        name
+        color
+    }
+,
+    todoPriorities
+    {
+        name
+        color
+        id
+    }
+,
+    callTypes
+    {
+        name
+        id
+    }
+,
+    callRatings
+    {
+        name
+        id
+    }
+}
